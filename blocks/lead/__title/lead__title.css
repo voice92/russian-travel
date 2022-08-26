@@ -13,7 +13,6 @@
   @media (max-width: 768px) {
     .lead__title {
       font-size: 12.5vw;
-      max-width: 720px;
     }
   }
   
@@ -26,7 +25,6 @@
   @media (max-width: 320px) {
     .lead__title {
       margin: 48px 16px 0;
-      font-size: 40px;
       line-height: 44px;
     }
   }

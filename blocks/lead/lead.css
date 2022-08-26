@@ -7,22 +7,23 @@
     margin: auto;
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1279px) {
     .lead {
+      max-width: none;
       padding-top: 48px;
       padding-left: 48px;
       padding-right: 48px;
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1023px) {
     .lead {
       padding-left: 0;
       padding-right: 0;
     }
   }
   
-  @media (max-width: 320px) {
+  @media (max-width: 767px) {
     .lead {
       padding: 0;
     }
