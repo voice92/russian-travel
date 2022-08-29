@@ -5,7 +5,6 @@
     position: relative;
     width: 100%;
     max-width: 1184px;
-    min-height: 740px;
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +12,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    aspect-ratio: 1.6;
   }
   
   .cover__img::before {
@@ -31,10 +31,5 @@
     opacity: 0.8;
   }
   
-  @media screen and (max-width: 1279px) {
-    .cover__img {
-      height: 62.5vw;
-    }
-  }
   
  

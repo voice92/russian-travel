@@ -11,10 +11,15 @@
     margin: 0;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1023px) {
     .place__paragraph {
       font-size: 16px;
       margin-bottom: 25px;
     }
   }
-  
+  @media screen and (max-width:767px) {
+    .place__paragraph {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }

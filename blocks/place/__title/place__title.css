@@ -8,15 +8,24 @@
   max-width: 460px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:1279px){
+  .place__title {
+    max-width: 440px;
+  }
+  
+}
+
+@media screen and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width:767px) {
   .place__title {
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 32px;
     line-height: 1.09;
   }

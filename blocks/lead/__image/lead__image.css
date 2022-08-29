@@ -1,9 +1,4 @@
 .lead__image {
-    max-width: 100%;
+  aspect-ratio: 1.6;
+  max-width: 100%;
   }
-
-@media screen and (max-width: 767px) {
-  .lead__image{
-    min-height: 200px;
-  }
-}

@@ -9,20 +9,10 @@
     max-width: 690px;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1023px) {
     .intro__text {
-      max-width: 720px;
+      max-width: none;
     }
   }
   
-  @media screen and (max-width: 550px) {
-    .intro__text {
-      max-width: 500px;
-    }
-  }
   
-  @media screen and (max-width: 330px) {
-    .intro__text {
-      max-width: 288px;
-    }
-  }
